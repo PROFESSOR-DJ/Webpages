@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='forgot.css')}}">
+    <link rel="stylesheet" href="static/forgot.css">
 
     <title>HerbID - Forgot Password</title>
 
@@ -47,7 +47,7 @@
              border: 0;
              outline: 0;
              box-shadow: 0px 4px 20px 0px #49c628a6;
-             background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);" value="Send OTP">
+             background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);" onclick="window.location.href='verification.html'" value="Send OTP">
             </form> 
     </div>
 </div>
