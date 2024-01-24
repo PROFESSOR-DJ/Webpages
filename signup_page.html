@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>HerbID - Sign Up</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='signup_page.css')}}" />
+    <link rel="stylesheet" href="static/signup_page.css" />
   </head>
   <body>
     <div class="box-form">
@@ -24,7 +24,7 @@
         <div class="right">    
     <section class="container">
       <header>Sign up</header>
-      <form action="/home_page" class="form" id="signup-form" method="post">
+      <form action="/home_page.html" class="form" id="signup-form" method="post">
         <div class="column">
         <div class="input-box">
           <label>First Name</label>
@@ -177,7 +177,7 @@
             <input type="number" placeholder="Enter postal code" id="postal_code" required />
           </div>
         </div>
-        <button type="submit">Signup</button>
+        <button type="submit" onclick="window.location.href='home_page.html'">Signup</button>
       </form>
     </section>
     </div>
