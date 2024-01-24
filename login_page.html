@@ -15,7 +15,7 @@
     />
     <link
       rel="stylesheet"
-      href="{{ url_for('static', filename='login_page.css')}}"
+      href="static/login_page.css"
     />
   </head>
   <body>
@@ -44,7 +44,7 @@
       </div>
       <div class="right">
         <h5>Login</h5>
-        <form action="/home" id="form">
+        <form action="/home_page.html" id="form">
           <div class="inputs">
             <input type="text" placeholder="Email" id="email" required />
             <br />
@@ -57,12 +57,12 @@
           </div>
           <br /><br />
           <div class="forget-password">
-            <a href="{{ url_for('forgot') }}">Forgot password?</a>
+            <a href="forgot.html">Forgot password?</a>
           </div>
           <br /><br />
           <p>
             Don't have an account?
-            <a href="{{ url_for('signup') }}">Create your account</a> it takes just 2
+            <a href="signup_page.html">Create your account</a> it takes just 2
             minutes
           </p>
           <br />
@@ -85,6 +85,7 @@
                 #49c628 100%
               );
             "
+            onclick="window.location.href='home_page.html'"
             value="Login"
           />
         </form>
