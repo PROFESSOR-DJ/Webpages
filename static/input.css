@@ -34,7 +34,7 @@ body {
   color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("static/left_bg.jpg");
+  background-image: url('static/left_bg.jpg');
   overflow: hidden;
   height: 700px;
 }
@@ -57,7 +57,7 @@ body {
   color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("static/right_bg.jpeg");
+  background-image: url('static/right_bg.jpeg');
   overflow: hidden;
   height: 700px;
 }
